@@ -8,7 +8,7 @@ st.set_page_config(
                     )
 
 # LOCK
-st.title("🔐 Secure Currency Converter")
+st.title("🔐 Secure 📁 CSV Data Viewer")
 # FOR USER
 password = st.text_input("Enter Password:", type="password")
 # CORRECT PASSWORD
@@ -130,5 +130,6 @@ if uploaded_file:
         )
 else:
     st.info("📥 Upload A CSV File To Begin")
+
 
 
